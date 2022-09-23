@@ -9,6 +9,8 @@
         <Description>Register Service</Description>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>QuocTa.RegisterService</PackageId>
+        <PackageProjectUrl>https://github.com/tieuanhquoc/Library/tree/master/RegisterService</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/tieuanhquoc/Library/tree/master/RegisterService</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>

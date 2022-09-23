@@ -7,7 +7,7 @@ public static class RegisterService
     public static IServiceCollection RegisAllService(this IServiceCollection services, string[] projects)
     {
         var assemblies = AppDomain.CurrentDomain.GetAssemblies()
-            .Where(x => x.FullName != null && projects.Any(z => z.Contains(x.FullName)))
+            .Where(x => x.FullName != null && projects.Any(z => x.FullName.Contains(z)))
             .ToList();
         foreach (var assembly in assemblies)
         {

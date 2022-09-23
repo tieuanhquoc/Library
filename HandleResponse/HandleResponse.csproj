@@ -10,6 +10,8 @@
         <PackageId>QuocTa.HandleResponse</PackageId>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageVersion>1.0.2</PackageVersion>
+        <PackageProjectUrl>https://github.com/tieuanhquoc/Library/tree/master/HandleResponse</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/tieuanhquoc/Library/tree/master/HandleResponse</RepositoryUrl>
     </PropertyGroup>
 
     <ItemGroup>

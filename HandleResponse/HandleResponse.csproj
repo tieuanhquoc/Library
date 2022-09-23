@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <Title>Handle Response</Title>
+        <Authors>Tieu Anh Quoc</Authors>
+        <Description>Handle Response</Description>
+        <PackageId>QuocTa.HandleResponse</PackageId>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <PackageVersion>1.0.2</PackageVersion>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.2.2" />
+      <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+    </ItemGroup>
+
+</Project>

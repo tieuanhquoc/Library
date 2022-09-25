@@ -1,6 +1,6 @@
 # How do I get started?
 #### Install
-    Install-Package QuocTa.HandleResponse
+    Install-Package TieuAnhQuoc.HandleResponse
 
 #### Add setting
     app.UseMiddleware<HandleResponseMiddleware>();

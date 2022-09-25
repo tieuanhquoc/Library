@@ -1,6 +1,6 @@
 ﻿using System.Reflection;
 
-namespace QuocTA.ObjectMapper;
+namespace TieuAnhQuoc.ObjectMapper;
 
 public static class ObjectMapper
 {

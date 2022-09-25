@@ -8,12 +8,14 @@
         <Authors>Tieu Anh Quoc</Authors>
         <Description></Description>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageId>QuocTa.RegisterService</PackageId>
+        <PackageId>TieuAnhQuoc.RegisterService</PackageId>
         <PackageProjectUrl>https://github.com/tieuanhquoc/Library/tree/master/RegisterService</PackageProjectUrl>
         <RepositoryUrl>https://github.com/tieuanhquoc/Library/tree/master/RegisterService</RepositoryUrl>
-        <RepositoryType>QuocTa,RegisterService,Register</RepositoryType>
-        <PackageVersion>1.0.2</PackageVersion>
+        <RepositoryType></RepositoryType>
+        <PackageVersion>1.0.3</PackageVersion>
         <PackageReadmeFile>Readme.md</PackageReadmeFile>
+        <PackageIcon>logo.png</PackageIcon>
+        <PackageTags>TieuAnhQuoc,RegisterService,Register</PackageTags>
     </PropertyGroup>
 
     <ItemGroup>
@@ -24,6 +26,10 @@
       <None Update="Readme.md">
         <Pack>True</Pack>
         <PackagePath>\</PackagePath>
+      </None>
+      <None Update="logo.png">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
       </None>
     </ItemGroup>
 

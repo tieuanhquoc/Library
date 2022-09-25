@@ -1,4 +1,4 @@
-﻿namespace QuocTA.ObjectMapper;
+﻿namespace TieuAnhQuoc.ObjectMapper;
 
 public class NoMapAttribute : Attribute
 {

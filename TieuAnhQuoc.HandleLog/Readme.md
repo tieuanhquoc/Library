@@ -1,6 +1,6 @@
 # How do I get started?
 #### Install
-    Install-Package QuocTa.HandleLog
+    Install-Package TieuAnhQuoc.HandleLog
 
 #### Add setting
     builder.Services.AddLogging(logging =>

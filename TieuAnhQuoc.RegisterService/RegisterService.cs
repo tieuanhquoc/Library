@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
 
-namespace QuocTA.RegisterService;
+namespace TieuAnhQuoc.RegisterService;
 
 public static class RegisterService
 {

@@ -4,17 +4,18 @@
         <TargetFramework>net6.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>disable</Nullable>
-        <PackageId>QuocTa.HandleLog</PackageId>
+        <PackageId>TieuAnhQuoc.HandleLog</PackageId>
         <Title>Handle Log</Title>
-        <Authors>Tieu ANh Quoc</Authors>
+        <Authors>Tieu Anh Quoc</Authors>
         <Description></Description>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageProjectUrl>https://github.com/tieuanhquoc/Library/tree/master/HandleLog</PackageProjectUrl>
         <RepositoryUrl>https://github.com/tieuanhquoc/Library/tree/master/HandleLog</RepositoryUrl>
-        <PackageVersion>1.0.3</PackageVersion>
-        <PackageTags>Quocta,HandleLog,Log,LogFile</PackageTags>
+        <PackageVersion>1.0.4</PackageVersion>
+        <PackageTags>TieuAnhQuoc,HandleLog,Log,LogFile</PackageTags>
         <PackageReadmeFile>Readme.md</PackageReadmeFile>
         <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+        <PackageIcon>logo.png</PackageIcon>
     </PropertyGroup>
 
     <ItemGroup>
@@ -25,6 +26,10 @@
       <None Update="Readme.md">
         <Pack>True</Pack>
         <PackagePath>\</PackagePath>
+      </None>
+      <None Update="logo.png">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
       </None>
     </ItemGroup>
 

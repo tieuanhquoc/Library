@@ -1,6 +1,6 @@
 # How do I get started?
 #### Install
-    Install-Package QuocTa.ObjectMapper
+    Install-Package TieuAnhQuoc.ObjectMapper
 
 #### Mapping Object/List
     var dto = entity.ProjectTo<TEntity, TDto>()

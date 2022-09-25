@@ -1,12 +1,12 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuocTA.RegisterService", "QuocTA.RegisterService\QuocTA.RegisterService.csproj", "{A9EEDBB6-3D6D-4779-85EA-7E2F1439B590}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TieuAnhQuoc.RegisterService", "TieuAnhQuoc.RegisterService\TieuAnhQuoc.RegisterService.csproj", "{A9EEDBB6-3D6D-4779-85EA-7E2F1439B590}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuocTA.HandleResponse", "QuocTA.HandleResponse\QuocTA.HandleResponse.csproj", "{681EB503-3518-49CC-98E7-645577863702}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TieuAnhQuoc.HandleResponse", "TieuAnhQuoc.HandleResponse\TieuAnhQuoc.HandleResponse.csproj", "{681EB503-3518-49CC-98E7-645577863702}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuocTA.ObjectMapper", "QuocTA.ObjectMapper\QuocTA.ObjectMapper.csproj", "{550F8F6C-1D61-4023-8043-D7A1EFDDF733}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TieuAnhQuoc.ObjectMapper", "TieuAnhQuoc.ObjectMapper\TieuAnhQuoc.ObjectMapper.csproj", "{550F8F6C-1D61-4023-8043-D7A1EFDDF733}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuocTA.HandleLog", "QuocTA.HandleLog\QuocTA.HandleLog.csproj", "{36ADDD49-CA89-46B9-B192-035958E5464F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TieuAnhQuoc.HandleLog", "TieuAnhQuoc.HandleLog\TieuAnhQuoc.HandleLog.csproj", "{36ADDD49-CA89-46B9-B192-035958E5464F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

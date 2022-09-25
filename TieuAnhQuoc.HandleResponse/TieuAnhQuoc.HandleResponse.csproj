@@ -7,13 +7,14 @@
         <Title>Handle Response</Title>
         <Authors>Tieu Anh Quoc</Authors>
         <Description></Description>
-        <PackageId>QuocTa.HandleResponse</PackageId>
+        <PackageId>TieuAnhQuoc.HandleResponse</PackageId>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageVersion>1.0.5</PackageVersion>
+        <PackageVersion>1.0.6</PackageVersion>
         <PackageProjectUrl>https://github.com/tieuanhquoc/Library/tree/master/HandleResponse</PackageProjectUrl>
         <RepositoryUrl>https://github.com/tieuanhquoc/Library/tree/master/HandleResponse</RepositoryUrl>
-        <PackageTags>QuocTa,HandleResponse,Response</PackageTags>
+        <PackageTags>TieuAnhQuoc,HandleResponse,Response</PackageTags>
         <PackageReadmeFile>Readme.md</PackageReadmeFile>
+        <PackageIcon>logo.png</PackageIcon>
     </PropertyGroup>
 
     <ItemGroup>
@@ -25,6 +26,10 @@
       <None Update="Readme.md">
         <Pack>True</Pack>
         <PackagePath>\</PackagePath>
+      </None>
+      <None Update="logo.png">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
       </None>
     </ItemGroup>
 

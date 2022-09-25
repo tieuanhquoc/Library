@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace QuocTA.HandleLog;
+namespace TieuAnhQuoc.HandleLog;
 
 public class HandleLog : ILogger
 {

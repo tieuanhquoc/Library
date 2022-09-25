@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
 
-namespace QuocTA.HandleResponse.Models;
+namespace TieuAnhQuoc.HandleResponse.Models;
 
 [Serializable]
 public class ApiException : Exception

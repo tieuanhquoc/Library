@@ -1,6 +1,6 @@
 ﻿using Microsoft.Extensions.Logging;
 
-namespace HandleLog;
+namespace QuocTA.HandleLog;
 
 public class HandleLog : ILogger
 {
@@ -45,9 +45,9 @@ public sealed class FileLoggerProvider : ILoggerProvider
 {
     private readonly string _path;
 
-    public FileLoggerProvider(string path)
+    public FileLoggerProvider(string path = null)
     {
-        path = string.IsNullOrEmpty(path) ? "Logs" : path;
+        path = path == null || string.IsNullOrEmpty(path) ? "Logs" : path;
         this._path = path;
     }
 

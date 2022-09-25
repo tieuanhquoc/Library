@@ -1,9 +1,9 @@
 ﻿using System.Text.Json;
-using HandleResponse.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
+using QuocTA.HandleResponse.Models;
 
-namespace HandleResponse;
+namespace QuocTA.HandleResponse;
 
 public class HandleResponseMiddleware
 {

@@ -7,14 +7,25 @@
         <PackageId>QuocTa.HandleLog</PackageId>
         <Title>Handle Log</Title>
         <Authors>Tieu ANh Quoc</Authors>
-        <Description>Handle Log</Description>
+        <Description></Description>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageProjectUrl>https://github.com/tieuanhquoc/Library/tree/master/HandleLog</PackageProjectUrl>
         <RepositoryUrl>https://github.com/tieuanhquoc/Library/tree/master/HandleLog</RepositoryUrl>
+        <PackageVersion>1.0.3</PackageVersion>
+        <PackageTags>Quocta,HandleLog,Log,LogFile</PackageTags>
+        <PackageReadmeFile>Readme.md</PackageReadmeFile>
+        <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="Readme.md">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
     </ItemGroup>
 
 </Project>

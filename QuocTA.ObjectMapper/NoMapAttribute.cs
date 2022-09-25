@@ -1,4 +1,4 @@
-﻿namespace ObjectMapper;
+﻿namespace QuocTA.ObjectMapper;
 
 public class NoMapAttribute : Attribute
 {

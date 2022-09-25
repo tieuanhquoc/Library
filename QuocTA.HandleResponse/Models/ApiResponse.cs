@@ -1,4 +1,4 @@
-﻿namespace HandleResponse.Models;
+﻿namespace QuocTA.HandleResponse.Models;
 
 public class ApiResponse<T> : ApiResponse
 {

@@ -6,11 +6,21 @@
         <Nullable>disable</Nullable>
         <Title>Object Mapper</Title>
         <Authors>Tieu Anh Quoc</Authors>
-        <Description>Object Mapper</Description>
+        <Description></Description>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>QuocTa.ObjectMapper</PackageId>
         <PackageProjectUrl>https://github.com/tieuanhquoc/Library/tree/master/ObjectMapper</PackageProjectUrl>
         <RepositoryUrl>https://github.com/tieuanhquoc/Library/tree/master/ObjectMapper</RepositoryUrl>
+        <PackageTags>QuocTa,ObjectMapper,Mapper</PackageTags>
+        <PackageVersion>1.0.2</PackageVersion>
+        <PackageReadmeFile>Readme.md</PackageReadmeFile>
     </PropertyGroup>
+
+    <ItemGroup>
+      <None Update="Readme.md">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
+    </ItemGroup>
 
 </Project>

@@ -9,6 +9,7 @@
         <Authors>Tieu Anh Quoc</Authors>
         <PackageIcon>logo.png</PackageIcon>
         <PackageTags>Tieu Anh Quoc, Extensions, TieuAnhQuoc.Extensions</PackageTags>
+        <PackageReadmeFile>Readme.md</PackageReadmeFile>
     </PropertyGroup>
 
     <ItemGroup>

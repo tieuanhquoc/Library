@@ -9,8 +9,8 @@
         <Description></Description>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>TieuAnhQuoc.RegisterService</PackageId>
-        <PackageProjectUrl>https://github.com/tieuanhquoc/Library/tree/master/RegisterService</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/tieuanhquoc/Library/tree/master/RegisterService</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/tieuanhquoc/Library/tree/master/TieuAnhQuoc.RegisterService</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/tieuanhquoc/Library/tree/master/TieuAnhQuoc.RegisterService</RepositoryUrl>
         <RepositoryType></RepositoryType>
         <PackageVersion>1.0.3</PackageVersion>
         <PackageReadmeFile>Readme.md</PackageReadmeFile>

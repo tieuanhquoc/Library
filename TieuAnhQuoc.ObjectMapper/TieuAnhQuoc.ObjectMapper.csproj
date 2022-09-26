@@ -9,8 +9,8 @@
         <Description></Description>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageId>TieuAnhQuoc.ObjectMapper</PackageId>
-        <PackageProjectUrl>https://github.com/tieuanhquoc/Library/tree/master/ObjectMapper</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/tieuanhquoc/Library/tree/master/ObjectMapper</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/tieuanhquoc/Library/tree/master/TieuAnhQuoc.ObjectMapper</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/tieuanhquoc/Library/tree/master/TieuAnhQuoc.ObjectMapper</RepositoryUrl>
         <PackageTags>TieuAnhQuoc,ObjectMapper,Mapper</PackageTags>
         <PackageVersion>1.0.3</PackageVersion>
         <PackageReadmeFile>Readme.md</PackageReadmeFile>

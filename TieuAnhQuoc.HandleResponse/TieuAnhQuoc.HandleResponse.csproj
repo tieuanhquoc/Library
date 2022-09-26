@@ -10,8 +10,8 @@
         <PackageId>TieuAnhQuoc.HandleResponse</PackageId>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageVersion>1.0.6</PackageVersion>
-        <PackageProjectUrl>https://github.com/tieuanhquoc/Library/tree/master/HandleResponse</PackageProjectUrl>
-        <RepositoryUrl>https://github.com/tieuanhquoc/Library/tree/master/HandleResponse</RepositoryUrl>
+        <PackageProjectUrl>https://github.com/tieuanhquoc/Library/tree/master/TieuAnhQuoc.HandleResponse</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/tieuanhquoc/Library/tree/master/TieuAnhQuoc.HandleResponse</RepositoryUrl>
         <PackageTags>TieuAnhQuoc,HandleResponse,Response</PackageTags>
         <PackageReadmeFile>Readme.md</PackageReadmeFile>
         <PackageIcon>logo.png</PackageIcon>

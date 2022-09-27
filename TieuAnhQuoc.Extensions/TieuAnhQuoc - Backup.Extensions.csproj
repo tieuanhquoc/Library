@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Title>Extensions</Title>
+        <Authors>Tieu Anh Quoc</Authors>
+        <PackageIcon>logo.png</PackageIcon>
+        <PackageTags>Tieu Anh Quoc, Extensions, TieuAnhQuoc.Extensions</PackageTags>
+        <PackageProjectUrl>https://github.com/tieuanhquoc/Library/tree/master/TieuAnhQuoc.Extensions</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/tieuanhquoc/Library/tree/master/TieuAnhQuoc.Extensions</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+      <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.23.1" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="logo.png">
+        <Pack>True</Pack>
+        <PackagePath></PackagePath>
+      </None>
+      <None Update="Readme.md">
+        <Pack>True</Pack>
+        <PackagePath>\</PackagePath>
+      </None>
+    </ItemGroup>
+
+</Project>

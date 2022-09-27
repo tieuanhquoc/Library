@@ -10,6 +10,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TieuAnhQuoc.HandleLog", "Ti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TieuAnhQuoc.Extensions", "TieuAnhQuoc.Extensions\TieuAnhQuoc.Extensions.csproj", "{7FF39EC1-777A-442A-8008-A21581E375EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TieuAnhQuoc.HealthCheck", "TieuAnhQuoc.HealthCheck\TieuAnhQuoc.HealthCheck.csproj", "{00A3037C-A3EF-4BA3-88E4-858EA8DC93F1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -36,5 +38,9 @@ Global
 		{7FF39EC1-777A-442A-8008-A21581E375EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FF39EC1-777A-442A-8008-A21581E375EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FF39EC1-777A-442A-8008-A21581E375EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{00A3037C-A3EF-4BA3-88E4-858EA8DC93F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00A3037C-A3EF-4BA3-88E4-858EA8DC93F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00A3037C-A3EF-4BA3-88E4-858EA8DC93F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00A3037C-A3EF-4BA3-88E4-858EA8DC93F1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -45,7 +45,9 @@ public class SqlServerCheck : IHealthCheck
         }
         catch (Exception exception)
         {
-            return HealthCheckResult.Unhealthy(exception.Message, exception, data);
+            return _important
+                ? HealthCheckResult.Unhealthy(exception.Message, exception, data)
+                : HealthCheckResult.Degraded(exception.Message, exception, data);
         }
     }
 }

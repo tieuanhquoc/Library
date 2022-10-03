@@ -42,7 +42,9 @@ public class UriCheck : IHealthCheck
 
             var response = await httpClient.GetAsync(_isHealthCheck ? _checkPath : "", cancellationToken);
             if (!response.IsSuccessStatusCode && !_isHealthCheck)
-                return HealthCheckResult.Unhealthy(response.ReasonPhrase, null, data);
+                return _important
+                    ? HealthCheckResult.Unhealthy(response.ReasonPhrase, null, data)
+                    : HealthCheckResult.Degraded(response.ReasonPhrase, null, data);
 
             if (!_isHealthCheck && response.IsSuccessStatusCode) return HealthCheckResult.Healthy(_name, data);
             var responseContent = await response.Content.ReadAsStringAsync(cancellationToken);
@@ -55,12 +57,16 @@ public class UriCheck : IHealthCheck
                     PropertyNamingPolicy = new JsonSnakeCaseNamingPolicy()
                 });
             if (healthCheckResponse == null || healthCheckResponse.Status != 200)
-                return HealthCheckResult.Unhealthy(healthCheckResponse?.Description, null, data);
+                return _important
+                    ? HealthCheckResult.Unhealthy(healthCheckResponse?.Description, null, data)
+                    : HealthCheckResult.Degraded(healthCheckResponse?.Description, null, data);
             return HealthCheckResult.Healthy(healthCheckResponse.Description, data);
         }
         catch (Exception exception)
         {
-            return HealthCheckResult.Unhealthy(exception.Message, exception, data);
+            return _important
+                ? HealthCheckResult.Unhealthy(exception.Message, exception, data)
+                : HealthCheckResult.Degraded(exception.Message, exception, data);
         }
     }
 }

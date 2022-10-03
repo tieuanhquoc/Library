@@ -12,7 +12,8 @@ public class HealthCheckResponse
 
     private string GetDescription()
     {
-        var descriptions = Dependencies.Where(x => x.Status != 200).Select(z => $"{z.Name} - {z.Description}").Distinct().ToList();
+        var descriptions = Dependencies.Where(x => x.Status != 200).Select(z => $"{z.Name} - {z.Description}")
+            .Distinct().ToList();
         return string.Join(", ", descriptions);
     }
 }
@@ -28,6 +29,7 @@ public class Dependency
     [JsonIgnore] public DateTime DateTime { get; set; }
     public string DateTimeFormat { get; set; }
     public string TimeCheck => DateTime.ToString(DateTimeFormat);
+    public long TimeStamp => new DateTimeOffset(DateTime).ToUnixTimeSeconds();
     [JsonIgnore] public TimeSpan Speed { get; set; }
     public string CountTimeCheck => $"{Speed.TotalSeconds} seconds";
 }

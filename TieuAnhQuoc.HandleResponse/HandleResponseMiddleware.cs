@@ -43,8 +43,7 @@ public class HandleResponseMiddleware
     private async Task HandleExceptionAsync(HttpContext context, ApiException apiException, string message)
     {
         context.Response.ContentType = "application/json";
-        int.TryParse(apiException.StatusCode.ToString(), out var statusCode);
-        context.Response.StatusCode = statusCode;
+        context.Response.StatusCode = (int) apiException.StatusCode;
 
         var response = JsonSerializer.Serialize(new
         {

@@ -5,7 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>disable</Nullable>
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-        <PackageVersion>1.0.2</PackageVersion>
+        <PackageVersion>1.0.6</PackageVersion>
         <Title>Health Check</Title>
         <Authors>Tieu Anh Quoc</Authors>
         <PackageIcon>logo.png</PackageIcon>

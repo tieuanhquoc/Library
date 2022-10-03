@@ -48,6 +48,8 @@ public sealed class FileLoggerProvider : ILoggerProvider
     public FileLoggerProvider(string path = null)
     {
         path = path == null || string.IsNullOrEmpty(path) ? "Logs" : path;
+        if (!Directory.Exists(path))
+            Directory.CreateDirectory(path);
         this._path = path;
     }
 

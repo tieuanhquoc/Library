@@ -24,13 +24,13 @@ public static class HealthCheckBuilder
                 context.Response.ContentType = "application/json";
                 var healthCheckResponse = new HealthCheckResponse
                 {
-                    Status = report.Status == HealthStatus.Healthy ? 200 : 500,
+                    Status = report.Status == HealthStatus.Unhealthy ? 500 : 200,
                     Msg = report.Status.ToString(),
                     Name = name,
                     Dependencies = report.Entries.Select(x => new Dependency
                     {
                         Important = x.Value.Data.FirstOrDefault(z => z.Key == "Important").Value,
-                        Status = x.Value.Status == HealthStatus.Healthy ? 200 : 500,
+                        Status = x.Value.Status == HealthStatus.Unhealthy ? 500 : 200,
                         Msg = x.Value.Status.ToString(),
                         Description = x.Value.Description,
                         Name = x.Key,
@@ -57,6 +57,7 @@ public static class HealthCheckBuilder
         UseHealthChecksCore(app, path, new object[] {Options.Create(options)});
         return app;
     }
+
     private static void UseHealthChecksCore(IApplicationBuilder app, PathString path, object[] args)
     {
         bool Predicate(HttpContext c)

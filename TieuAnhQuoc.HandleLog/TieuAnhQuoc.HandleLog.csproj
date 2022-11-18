@@ -11,7 +11,7 @@
         <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
         <PackageProjectUrl>https://github.com/tieuanhquoc/Library/tree/master/TieuAnhQuoc.HandleLog</PackageProjectUrl>
         <RepositoryUrl>https://github.com/tieuanhquoc/Library/tree/master/TieuAnhQuoc.HandleLog</RepositoryUrl>
-        <PackageVersion>1.0.4</PackageVersion>
+        <PackageVersion>1.0.5</PackageVersion>
         <PackageTags>TieuAnhQuoc,HandleLog,Log,LogFile</PackageTags>
         <PackageReadmeFile>Readme.md</PackageReadmeFile>
         <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
@@ -20,6 +20,7 @@
 
     <ItemGroup>
       <PackageReference Include="Microsoft.Extensions.Logging" Version="6.0.0" />
+      <PackageReference Include="Serilog.AspNetCore" Version="6.0.1" />
     </ItemGroup>
 
     <ItemGroup>

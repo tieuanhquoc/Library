@@ -48,6 +48,7 @@ public class ApiException : Exception
     public string StatusMessage { get; } = "Please try again later";
     public override string Message { get; } = "Please try again later";
     public object Result { get; set; }
+    public string ShortContent { get; set; }
 }
 
 public enum ErrorCode
@@ -55,7 +56,8 @@ public enum ErrorCode
     [Display(Name = "400")] OPERATION_NOT_ALLOWED = 400,
     [Display(Name = "403")] FORBIDDEN = 403,
     [Display(Name = "401")] UNAUTHORIZED = 401,
-    [Display(Name = "409")] ALREADY_EXISTS = 409,
     [Display(Name = "404")] NOT_FOUND = 404,
+    [Display(Name = "409")] ALREADY_EXISTS = 409,
+    [Display(Name = "410")] GONE = 410,
     [Display(Name = "500")] SERVER_ERROR = 500
 }

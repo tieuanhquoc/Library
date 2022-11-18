@@ -4,7 +4,8 @@ namespace TieuAnhQuoc.RegisterService;
 
 public static class RegisterService
 {
-    public static IServiceCollection RegisAllService(this IServiceCollection services, string[] projects)
+    public static IServiceCollection RegisAllService(this IServiceCollection services, string[] projects,
+        string[]? ignoreProjects = null)
     {
         var assemblies = AppDomain.CurrentDomain.GetAssemblies()
             .Where(x => x.FullName != null && projects.Any(z => x.FullName.Contains(z)))
@@ -13,6 +14,9 @@ public static class RegisterService
         {
             var types = assembly.GetTypes().Where(x => x.Name.EndsWith("Service") || x.Name.EndsWith("Repository"))
                 .ToList();
+
+            if (ignoreProjects != null && ignoreProjects.Any())
+                types = types.Where(x => !ignoreProjects.Contains(x.Name)).ToList();
 
             foreach (var type in types)
             {
